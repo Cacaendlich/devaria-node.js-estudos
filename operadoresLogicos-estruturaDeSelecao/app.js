@@ -21,9 +21,8 @@ console.log(' Esse programa verifica se você é maior de 18 anos e se tem Habil
 console.log(' Alem disso vamos verificar se você está na lista de presença do horário!');
 console.log('-----------------------------------------------------------------------------------------------------------------')
 
-let name;
 let age;
-let habilitacao;
+
 
 readLine.question('Ano de nascimento: ', ano => {
     age = 2023 - ano;
